@@ -30,10 +30,6 @@
   height: 105px;
 }
 
-.header__logo-image {
-  width: 100%;
-}
-
 .address {
   display: flex;
   flex-direction: column;
@@ -117,6 +113,7 @@
   line-height: 26px;
   text-transform: uppercase;
   background-color: transparent;
+  cursor: pointer;
 }
 
 .lots {
@@ -207,7 +204,6 @@
 .about {
   display: grid;
   grid-template-columns: 334px 1fr;
-  grid-template-rows: 240px, 1fr;
   justify-items: center;
   row-gap: 8px;
   column-gap: calc(72px - (334px - 240px) / 2);
@@ -220,17 +216,13 @@
   align-items: center;
   width: 240px;
   height: 240px;
-  border-radius: 120px;
+  border-radius: 50%;
   background-color: #000;
 }
 
 .about__logo {
   width: 148px;
   height: 114px;
-}
-
-.about__logo-image {
-  width: 100%;
 }
 
 .about__title {
@@ -295,8 +287,4 @@
   display: block;
   width: 48px;
   height: 48px;
-}
-
-.footer__link-logo-image {
-  width: 100%;
 }
